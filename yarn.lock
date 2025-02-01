@@ -574,197 +574,208 @@ __metadata:
   linkType: hard
 
 "@wix/bookings@npm:^1.0.136":
-  version: 1.0.478
-  resolution: "@wix/bookings@npm:1.0.478"
+  version: 1.0.556
+  resolution: "@wix/bookings@npm:1.0.556"
   dependencies:
-    "@wix/bookings_attendance": 1.0.56
-    "@wix/bookings_availability-calendar": 1.0.44
-    "@wix/bookings_availability-time-slots": 1.0.37
-    "@wix/bookings_booking-fees": 1.0.10
-    "@wix/bookings_booking-policies": 1.0.9
-    "@wix/bookings_booking-policy-snapshots": 1.0.7
-    "@wix/bookings_bookings": 1.0.64
-    "@wix/bookings_categories": 1.0.43
-    "@wix/bookings_extended-bookings": 1.0.55
-    "@wix/bookings_external-calendars": 1.0.40
-    "@wix/bookings_multi-service-availability-time-slots": 1.0.36
-    "@wix/bookings_pricing": 1.0.43
-    "@wix/bookings_resource-types": 1.0.13
-    "@wix/bookings_resources": 1.0.53
-    "@wix/bookings_service-options-and-variants": 1.0.53
-    "@wix/bookings_services": 1.0.77
-    "@wix/bookings_staff-members": 1.0.14
-  checksum: 39eaedfd7b29b0a21cd4ea20500d5083976d15e2c870a372243f9361d78b1af77f856d09b6fe03499b7172bc95630dda88fb455bc3b8bf357a65ed1bdc95755f
+    "@wix/bookings_attendance": 1.0.64
+    "@wix/bookings_availability-calendar": 1.0.60
+    "@wix/bookings_availability-time-slots": 1.0.51
+    "@wix/bookings_booking-fees": 1.0.18
+    "@wix/bookings_booking-policies": 1.0.23
+    "@wix/bookings_booking-policy-snapshots": 1.0.13
+    "@wix/bookings_bookings": 1.0.89
+    "@wix/bookings_categories": 1.0.50
+    "@wix/bookings_extended-bookings": 1.0.69
+    "@wix/bookings_external-calendars": 1.0.47
+    "@wix/bookings_multi-service-availability-time-slots": 1.0.50
+    "@wix/bookings_pricing": 1.0.54
+    "@wix/bookings_resource-types": 1.0.29
+    "@wix/bookings_resources": 1.0.72
+    "@wix/bookings_service-categories": 1.0.11
+    "@wix/bookings_service-options-and-variants": 1.0.69
+    "@wix/bookings_services": 1.0.106
+    "@wix/bookings_staff-members": 1.0.31
+  checksum: 0ee1cd2afb43167cb100c9ce6601f9e608652aed69f2ae9c6aa5ca566eb849245ee69f5f2270315d7b52531b85e9937c7e0681e35a5c9598c7ec663c5c379d87
   languageName: node
   linkType: hard
 
-"@wix/bookings_attendance@npm:1.0.56":
-  version: 1.0.56
-  resolution: "@wix/bookings_attendance@npm:1.0.56"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.22
-    "@wix/sdk-types": ^1.12.4
-  checksum: 41e42d76e7f46096d33edfb53824d046665f7f9a7ad125bb0dadf090da5c138ad5b4a67bcf928a1e9aec4e6a26315a8cd1a8268dc5c1b93514f1f2c1a1d99ba4
-  languageName: node
-  linkType: hard
-
-"@wix/bookings_availability-calendar@npm:1.0.44":
-  version: 1.0.44
-  resolution: "@wix/bookings_availability-calendar@npm:1.0.44"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.22
-    "@wix/sdk-types": ^1.12.4
-  checksum: 97d66027ac33d64bde78945d329b1ea7dd3b793c4afb658c5638836ae99394429a9e138328b4deeab822b423c913bcab4815a0f8e71006af262826ff37f46e73
-  languageName: node
-  linkType: hard
-
-"@wix/bookings_availability-time-slots@npm:1.0.37":
-  version: 1.0.37
-  resolution: "@wix/bookings_availability-time-slots@npm:1.0.37"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.22
-    "@wix/sdk-types": ^1.12.4
-  checksum: 424b03579bee992899cf21509c4c29773e200c1f75c0d666a6b9f1ecbc58615df986cd0b67a774b00c32538f114fbf2289cd0a913390df27791da7447bfbb84e
-  languageName: node
-  linkType: hard
-
-"@wix/bookings_booking-fees@npm:1.0.10":
-  version: 1.0.10
-  resolution: "@wix/bookings_booking-fees@npm:1.0.10"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.22
-    "@wix/sdk-types": ^1.12.4
-  checksum: e5426f0eac41218ae016f95db9ba426295517ea6a68ec388a22f894d5631e04f417aa119b6dd0124259f4fbdc3a6a446b46bb7ac741266f54876b07449ecf6e9
-  languageName: node
-  linkType: hard
-
-"@wix/bookings_booking-policies@npm:1.0.9":
-  version: 1.0.9
-  resolution: "@wix/bookings_booking-policies@npm:1.0.9"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.22
-    "@wix/sdk-types": ^1.12.4
-  checksum: 2f6110448285529b4124efa7a6441a56256cc8c9792b8ac14604c76c742c2634e6d3fd1f201880c804ed1c29d90f82eddd0b0336244bd8de2d3027a447219265
-  languageName: node
-  linkType: hard
-
-"@wix/bookings_booking-policy-snapshots@npm:1.0.7":
-  version: 1.0.7
-  resolution: "@wix/bookings_booking-policy-snapshots@npm:1.0.7"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.22
-    "@wix/sdk-types": ^1.12.4
-  checksum: 4ff1a8d6042270b113ed4fcfbb3e1160a06e2a9e91c60965e0e4aca3882ef263edebd5d0910f774be0f0bc47bc7ea6fcb2bcb858fa39c3936172e18fee344302
-  languageName: node
-  linkType: hard
-
-"@wix/bookings_bookings@npm:1.0.64":
+"@wix/bookings_attendance@npm:1.0.64":
   version: 1.0.64
-  resolution: "@wix/bookings_bookings@npm:1.0.64"
+  resolution: "@wix/bookings_attendance@npm:1.0.64"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: 9211c0d0f2e7a69257bc824d9c5321fd4ca951e1c192d189b09bb0ca1e397e72c6f14ab4a39af63222ee03b7e32f4ace156de746d6c3ca884737e28ad613a335
+  checksum: b091caba0bbf9002a0d50008923670271d57fafd9e3131f422d524d99177235f29b9aaf4097876195cf571551eaba9fdff739c8bab0a15a95ad4b241529b8a5c
   languageName: node
   linkType: hard
 
-"@wix/bookings_categories@npm:1.0.43":
-  version: 1.0.43
-  resolution: "@wix/bookings_categories@npm:1.0.43"
+"@wix/bookings_availability-calendar@npm:1.0.60":
+  version: 1.0.60
+  resolution: "@wix/bookings_availability-calendar@npm:1.0.60"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: 0d0be2b4ecb9b096087b212ca865ee734ca2abcbfde2c186875ffad4709b9d83fe2dd736cc9e4b136a1cfcefb51279744039c629be459ffd6c10f38424dbb824
+  checksum: 3eda9569f1f2aea298c60f192069661e4e0f04d8c58a70b73b4d0c9bdf52e5bf09d73aa70b9c90e44a4d56a320bbb9035d0dc6b207829afd81c81d1e64804755
   languageName: node
   linkType: hard
 
-"@wix/bookings_extended-bookings@npm:1.0.55":
-  version: 1.0.55
-  resolution: "@wix/bookings_extended-bookings@npm:1.0.55"
+"@wix/bookings_availability-time-slots@npm:1.0.51":
+  version: 1.0.51
+  resolution: "@wix/bookings_availability-time-slots@npm:1.0.51"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: 552af1d1b5550fb63e894782f4d86ee0256ff8875a2ee6db9329b4cc595f6b79fae4e3410553ab49c60b9beb1468b6fa37f920ab6035faafb80fcc8a41202534
+  checksum: 281fa75b57b2e2549d87546b194896dfbde5d5b0d0f5be2fb7852c8426435ee37a33b5dc46ea67ff0a025504d05f97d632ae7f3bca3ef4aef6ee27cb2c34767f
   languageName: node
   linkType: hard
 
-"@wix/bookings_external-calendars@npm:1.0.40":
-  version: 1.0.40
-  resolution: "@wix/bookings_external-calendars@npm:1.0.40"
+"@wix/bookings_booking-fees@npm:1.0.18":
+  version: 1.0.18
+  resolution: "@wix/bookings_booking-fees@npm:1.0.18"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: c402f53bb02e1da2c61e996086a1e67b103c4ee31b991bed65ceec64c44ced3653823ee33f5018f63e3b8687f47eac4592d7af57bd2e38836e23cc4c308c2bd7
+  checksum: cdfc3af6e23daf75b97267cfedd98f61e919a0fedcf6ec63e9366cfce9dc4e70a14e462c8ca0ab8417344ba96518e49bf226465ce1054c040e8a156afbdf9ce8
   languageName: node
   linkType: hard
 
-"@wix/bookings_multi-service-availability-time-slots@npm:1.0.36":
-  version: 1.0.36
-  resolution: "@wix/bookings_multi-service-availability-time-slots@npm:1.0.36"
+"@wix/bookings_booking-policies@npm:1.0.23":
+  version: 1.0.23
+  resolution: "@wix/bookings_booking-policies@npm:1.0.23"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: 72aa2e43b12420b190d9bab7c1cf8f73ac917a0be2301617792793a25f9b649b184237c2cf76411199773c54d6f0f1a9596214fea0461ce0a7c3f918b625a22d
+  checksum: 1921413d8c8e04ca67679e64dfc641d7b1e1f362d90a2415a943f58ea67ebf6051ce8da1cae3af540889c28a1ebee1d9d22cff06503cbe9366a12bdff4667342
   languageName: node
   linkType: hard
 
-"@wix/bookings_pricing@npm:1.0.43":
-  version: 1.0.43
-  resolution: "@wix/bookings_pricing@npm:1.0.43"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.22
-    "@wix/sdk-types": ^1.12.4
-  checksum: 71e1c44b4d03e6d1cd584969bc9d8e065bea3a12ccbcec69e86b1c658cd980b75ac59d79571b635a900be5cd674ef5ce7aa051a3e0ea05c00f4e87f6c7c136b2
-  languageName: node
-  linkType: hard
-
-"@wix/bookings_resource-types@npm:1.0.13":
+"@wix/bookings_booking-policy-snapshots@npm:1.0.13":
   version: 1.0.13
-  resolution: "@wix/bookings_resource-types@npm:1.0.13"
+  resolution: "@wix/bookings_booking-policy-snapshots@npm:1.0.13"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: de39b25deb8b6a67da52ba862ea8013a04540ef3fa5517ed33c4e8fd69a2fd67f79fd203a9aa60c094172471a87bed6d912f02626994091faa9b79deb1fd75e7
+  checksum: eba25bb7d23b58b3dc7bf3d01cd8138b759e32b02576a9fd190c1790753378ec73967da79f0d209636ab8b2f37fb07e04303d579bba5e0d8f94d63853608e358
   languageName: node
   linkType: hard
 
-"@wix/bookings_resources@npm:1.0.53":
-  version: 1.0.53
-  resolution: "@wix/bookings_resources@npm:1.0.53"
+"@wix/bookings_bookings@npm:1.0.89":
+  version: 1.0.89
+  resolution: "@wix/bookings_bookings@npm:1.0.89"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: 84eca05b83029ef8968822997c2d4c89106f0840eed4060d3f65a1836354c0d9fa3186d52da9636cd7c5e331a9e2a378acd1965ffd2b4dcc07b155015455ed5a
+  checksum: 531da13391c9b4a838e6eaca2713062b35926de3c7c7882ecc10755d21dafb3e0df4f925d27af4cfc87ac90c9dee5b0fbf468b6aa73c693b7da1c9d929b99402
   languageName: node
   linkType: hard
 
-"@wix/bookings_service-options-and-variants@npm:1.0.53":
-  version: 1.0.53
-  resolution: "@wix/bookings_service-options-and-variants@npm:1.0.53"
+"@wix/bookings_categories@npm:1.0.50":
+  version: 1.0.50
+  resolution: "@wix/bookings_categories@npm:1.0.50"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: ad399fbc4045cd30ff1ba7715402055bdebf024df3b9e94317eaf99162b369fd7ea78b8faff22d97c3de2e8f940d43c0711b13f56151d2ab05872f53965c41e3
+  checksum: 3f20a0c6f526fa3240332b902b63b6bc29857f178f8edd650a92b107c9fbfcddf1ba3748617ae3decf0aba7bc9c450028c7430a721a9325bccfc2e86c07fe9c8
   languageName: node
   linkType: hard
 
-"@wix/bookings_services@npm:1.0.77":
-  version: 1.0.77
-  resolution: "@wix/bookings_services@npm:1.0.77"
+"@wix/bookings_extended-bookings@npm:1.0.69":
+  version: 1.0.69
+  resolution: "@wix/bookings_extended-bookings@npm:1.0.69"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: a16ea6bdf7cfeb74a0d8093163d923f53b54cc1df3b078424dd81b8fa63882674dacbbec8c2d9cad6c607ad78a40265fdd98a1dcb378a98b61d287dfc7b87f8d
+  checksum: 248a6b7b00e460e725f23d5b33e55c30945dafbebefd249497ceac02b2ed9336a2d52fe562dcf94bd748da0860c3971698b33e43e9c904da747d46e5f74d1ea6
   languageName: node
   linkType: hard
 
-"@wix/bookings_staff-members@npm:1.0.14":
-  version: 1.0.14
-  resolution: "@wix/bookings_staff-members@npm:1.0.14"
+"@wix/bookings_external-calendars@npm:1.0.47":
+  version: 1.0.47
+  resolution: "@wix/bookings_external-calendars@npm:1.0.47"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: 31e22d13aac83d67b2b99fa6df9dbfd93103bbb40f1090696bc1fa75ed89c2bc878f75620b764d97f06f5980883681ead02cb0574d35394303feba38614deea1
+  checksum: 4d1b3c44e59e40ab7a12d6495537e666e7b20db3021b63b6e696aa43040e115b8ad36ccc183ab76627634920c807798f41a2d868dd20e022ec9b3aa0067ac3af
+  languageName: node
+  linkType: hard
+
+"@wix/bookings_multi-service-availability-time-slots@npm:1.0.50":
+  version: 1.0.50
+  resolution: "@wix/bookings_multi-service-availability-time-slots@npm:1.0.50"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 0fd2e4f964b40c93380cf27499e08fe47ae1003a4b6c43bf774a05389f11e4e3504338878fb39cfa16900f099bd70f3d4a17ff11a7c11a206ce833b69bf71272
+  languageName: node
+  linkType: hard
+
+"@wix/bookings_pricing@npm:1.0.54":
+  version: 1.0.54
+  resolution: "@wix/bookings_pricing@npm:1.0.54"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 6b7afcc99873d74686cd944eea0f24aacb885b1a313608b02201b1d673ffb509c383c93963de961e5ff1d9da448729d77d30ce351712a134c4d77b4bffe61c49
+  languageName: node
+  linkType: hard
+
+"@wix/bookings_resource-types@npm:1.0.29":
+  version: 1.0.29
+  resolution: "@wix/bookings_resource-types@npm:1.0.29"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 402bcf7f7f1029abba626cac6d078002ca5d7428dce823c2d59f1246f408b074cd5bec7b78d14bc655a55e7e3c1719ac213c4833bb29c058cb97ee27caa23b4b
+  languageName: node
+  linkType: hard
+
+"@wix/bookings_resources@npm:1.0.72":
+  version: 1.0.72
+  resolution: "@wix/bookings_resources@npm:1.0.72"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 3d394ea79187a31abaa483b86657ebbb25ca507dc869b726d9bc590b581fde63d0758cc99b9e24a3208b39b346e86d3a713fde219da91931f2e189c8bf265a6a
+  languageName: node
+  linkType: hard
+
+"@wix/bookings_service-categories@npm:1.0.11":
+  version: 1.0.11
+  resolution: "@wix/bookings_service-categories@npm:1.0.11"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 0922b77c9f5507d1145d811a6f980d6abcd8a82f7fbc8ecdb31d246053cc20b5035db9365152521e7af4dd2eaac4708ec362fd687729ce215a58b0df1e69f8f0
+  languageName: node
+  linkType: hard
+
+"@wix/bookings_service-options-and-variants@npm:1.0.69":
+  version: 1.0.69
+  resolution: "@wix/bookings_service-options-and-variants@npm:1.0.69"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 89226a67dedb2a2a56ef4d1665a63060a4e301e51607789d4363481c5ebdab607f9f0ee298a5dba54de4275ab1b44d0b6fb76ad45093d69cfeeb53d9471ce555
+  languageName: node
+  linkType: hard
+
+"@wix/bookings_services@npm:1.0.106":
+  version: 1.0.106
+  resolution: "@wix/bookings_services@npm:1.0.106"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: cbbeb0c72ed9d2bacca9da34664567e949973848b16b5028eee210148e959c6567b6dcd52f05c2855152715a7b6c13c8776034db276f5000493c0673f72c2022
+  languageName: node
+  linkType: hard
+
+"@wix/bookings_staff-members@npm:1.0.31":
+  version: 1.0.31
+  resolution: "@wix/bookings_staff-members@npm:1.0.31"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: f2c0f4992ebf403e6b712fa6b35c1887e28cff044c7de4e841a423d9183cc39b5f7b9d5273e4040412a5fb9cb94d02904705b817a2ec58777b5791466a1d0b42
   languageName: node
   linkType: hard
 
